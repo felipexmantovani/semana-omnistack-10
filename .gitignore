@@ -5,6 +5,7 @@
 *.vscode
 $RECYCLE.BIN/
 *node_modules
+*npm-debug.log*
 
 # web
 # dependencies
@@ -19,6 +20,16 @@ web/.env.local
 web/.env.development.local
 web/.env.test.local
 web/.env.production.local
-web/npm-debug.log*
 web/yarn-debug.log*
 web/yarn-error.log*
+
+# mobile
+mobile/.expo/*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
+mobile/web-report/
