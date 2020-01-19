@@ -8,14 +8,10 @@ $RECYCLE.BIN/
 *npm-debug.log*
 
 # web
-# dependencies
 web/.pnp
 web/.pnp.js
-# testing
 web/coverage
-# production
 web/build
-# misc
 web/.env.local
 web/.env.development.local
 web/.env.test.local
