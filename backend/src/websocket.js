@@ -30,10 +30,6 @@ exports.findConnections = (coordinates, techs) => {
 }
 
 exports.sendMessage = (to, message, data) => {
-  console.log('sendMessage')
-  console.log(to)
-  console.log(message)
-  console.log(data)
   to.forEach(connection => {
     io.to(connection.id).emit(message, data);
   });
