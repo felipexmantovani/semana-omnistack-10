@@ -15,6 +15,7 @@ yarn dev
 - Para configurar o MongoDB na aplicação edite o arquivo src/**index.js** alterando as variáveis: **user**, **password** e **db**.
 [https://cloud.mongodb.com/]
 
+
 > Front-end web
 **ReactJS**
 
@@ -23,6 +24,7 @@ cd web
 yarn install
 yarn start
 ```
+
 
 > Front-end mobile
 **React Native**
